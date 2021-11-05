@@ -19,9 +19,4 @@ class BottomBarController extends GetxController {
   void changeBottomBarIndex(int index) {
     bottomBarIndex.value = index;
   }
-
-  void switchChangeBottomBar(int index) async {
-    changeBottomBarIndex(index);
-    await Get.toNamed(Routes.BOTTOM_BAR);
-  }
 }

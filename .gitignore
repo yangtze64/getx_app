@@ -46,6 +46,7 @@ app.*.map.json
 /test
 /web
 /windows
+/macos
 .metadata
 analysis_options.yaml
 getx_app.iml
